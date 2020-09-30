@@ -3,8 +3,7 @@
     "variables": {
       "aws_access_key": "",
       "aws_secret_key": "",
-      
-    },
+                  },
     "_comment1" : "packer build -var \"aws_secret_key=foo\" template.json",
     "_comment2" : "packer build -var-file creds.json template.json",
     "builders": [{
