@@ -15,8 +15,8 @@
       "instance_type": "t2.micro",
       "ssh_username": "ec2-user",
       "ami_name": "DevOpsClass-Build-{{isotime | clean_resource_name}}",
-      "vpc_id": "{{user `vpc_id`}}",
-      "subnet_id": "{{user `subnet_id`}}",
+      "vpc_id": "vpc-00fcf06ed333ec9c8",
+      "subnet_id": "subnet-0c861e2dde2ecfa0e",
       "tags": {
         "Name": "DevOpsClass-Build-{{isotime | clean_resource_name}}"
       }
